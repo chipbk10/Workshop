@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		697FDA61289944CD00A6EC28 /* TDD_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FDA60289944CD00A6EC28 /* TDD_Demo.swift */; };
+		697FDA652899451E00A6EC28 /* TDD_Demo_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */; };
 		69AA02FB2890108600DDF334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AA02FA2890108600DDF334 /* AppDelegate.swift */; };
 		69AA03042890108900DDF334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AA03032890108900DDF334 /* Assets.xcassets */; };
 		69AA03072890108900DDF334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AA03052890108900DDF334 /* LaunchScreen.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		697FDA60289944CD00A6EC28 /* TDD_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo.swift; sourceTree = "<group>"; };
+		697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo_Test.swift; sourceTree = "<group>"; };
 		69AA02F72890108600DDF334 /* Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AA02FA2890108600DDF334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AA03032890108900DDF334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 		695826FC2899279500690281 /* TDD */ = {
 			isa = PBXGroup;
 			children = (
+				697FDA60289944CD00A6EC28 /* TDD_Demo.swift */,
 			);
 			path = TDD;
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 		695826FD289927C800690281 /* TDD */ = {
 			isa = PBXGroup;
 			children = (
+				697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */,
 			);
 			path = TDD;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 			files = (
 				69AA02FB2890108600DDF334 /* AppDelegate.swift in Sources */,
 				69AA03372890260C00DDF334 /* Utils.swift in Sources */,
+				697FDA61289944CD00A6EC28 /* TDD_Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69AA03122890108900DDF334 /* WorkshopTests.swift in Sources */,
+				697FDA652899451E00A6EC28 /* TDD_Demo_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

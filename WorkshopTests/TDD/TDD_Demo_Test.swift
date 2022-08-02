@@ -6,30 +6,83 @@
 //
 
 import XCTest
+@testable import Workshop
 
 class TDD_Demo_Test: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    // s = "0" -> 0
+    func test_convert_givenZeroString_shouldReturnZero() {
+        
+        // assign
+        let s = "0"
+        let demo = TDD_Demo()
+        
+        // act
+        let actualResult = demo.convert(s)
+        
+        // assertion
+        XCTAssertEqual(actualResult, 0)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    // s = "" -> nil
+    func test_convert_givenEmptyString_shouldReturnNil() {
+        
+        // assign
+        let s = ""
+        let demo = TDD_Demo()
+        
+        // act
+        let actualResult = demo.convert(s)
+        
+        // assertion
+        XCTAssertNil(actualResult)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    // s = "42" -> 42
+    func test_convert_givenValidPositiveNumberString_shouldReturnValidPositiveNumber() {
+        
+        // assign
+        let s = "42"
+        let demo = TDD_Demo()
+        
+        // act
+        let actualResult = demo.convert(s)
+        
+        // assertion
+        XCTAssertEqual(actualResult, 42)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    // s = "-42" -> -42
+    func test_convert_givenValidNegativeNumberString_shouldReturnValidNegativeNumber() {
+        
+        // assign
+        let s = "-42"
+        let demo = TDD_Demo()
+        
+        // act
+        let actualResult = demo.convert(s)
+        
+        // assertion
+        XCTAssertEqual(actualResult, -42)
     }
-
+    
+    // s = "+42" -> 42
+    func test_convert_givenValidPositiveNumberStringWithSign_shouldReturnValidPositiveNumber() {
+        
+        // assign
+        let s = "+42"
+        let demo = TDD_Demo()
+        
+        // act
+        let actualResult = demo.convert(s)
+        
+        // assertion
+        XCTAssertEqual(actualResult, 42)
+    }
+    
+    // s = "442abdfsdfsd58" -> nil
+    // s = "234323243242343242342342342342342342342332423423" -> overflow -> nil
+    // s = "-23432894932794798237497239749723479237497329479237497239" -> underflow -> nil
+    
+    // finish all the test case -> implementqion is done
 }
