@@ -31,42 +31,6 @@ final class OriginalDataLoader {
     
 }
 
-final class ImprovedDataLoader {
-        
-    private let cache: [String:[User]]
-    private let bundle: Bundle
-    
-    init(cache: [String:[User]] = [:], bundle: Bundle = .main) {
-        self.cache = cache
-        self.bundle = bundle
-    }
-    
-    func load(fileName: String) throws -> [User] {
-        
-        if let cacheData = cache[fileName] {
-            return cacheData
-        }
-        
-        guard let url = bundle.url(forResource: fileName, withExtension: nil) else {
-            throw DataLoaderError.invalidUrl
-        }
-        
-        guard let jsonData = try? Data(contentsOf: url) else {
-            throw DataLoaderError.invalidData
-        }
-        guard let data = try? JSONDecoder().decode([User].self, from: jsonData) else {
-            throw DataLoaderError.invalidJson
-        }
-        return data
-    }
-}
-
-enum DataLoaderError: Error {
-    case invalidUrl
-    case invalidData
-    case invalidJson
-}
-
 struct User: Decodable {
     let name: String
     let age: Int
