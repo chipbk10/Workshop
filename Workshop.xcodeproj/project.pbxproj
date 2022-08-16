@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6902C99828AB689300108DAC /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902C99728AB689300108DAC /* BankAccount.swift */; };
+		6902C99B28AB6A8C00108DAC /* BankAccount_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902C99A28AB6A8C00108DAC /* BankAccount_Test.swift */; };
+		6902C99D28AB9E7B00108DAC /* BankAccountActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6902C99C28AB9E7B00108DAC /* BankAccountActor.swift */; };
 		697FDA61289944CD00A6EC28 /* TDD_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FDA60289944CD00A6EC28 /* TDD_Demo.swift */; };
 		697FDA652899451E00A6EC28 /* TDD_Demo_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */; };
 		698817A228A25111004C37F8 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698817A128A25111004C37F8 /* DataLoader.swift */; };
@@ -48,6 +51,11 @@
 /* Begin PBXFileReference section */
 		6902C99428AB61BC00108DAC /* TDD.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = TDD.pptx; sourceTree = "<group>"; };
 		6902C99528AB61BC00108DAC /* UnitTest.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = UnitTest.pptx; sourceTree = "<group>"; };
+		6902C99728AB689300108DAC /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		6902C99A28AB6A8C00108DAC /* BankAccount_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount_Test.swift; sourceTree = "<group>"; };
+		6902C99C28AB9E7B00108DAC /* BankAccountActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountActor.swift; sourceTree = "<group>"; };
+		6902C99E28ABC46F00108DAC /* RaceCondition.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = RaceCondition.pptx; sourceTree = "<group>"; };
+		6902C99F28ABC4C200108DAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		697FDA60289944CD00A6EC28 /* TDD_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo.swift; sourceTree = "<group>"; };
 		697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo_Test.swift; sourceTree = "<group>"; };
 		698817A128A25111004C37F8 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -99,6 +107,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6902C99628AB684200108DAC /* RaceCondition */ = {
+			isa = PBXGroup;
+			children = (
+				6902C99728AB689300108DAC /* BankAccount.swift */,
+				6902C99C28AB9E7B00108DAC /* BankAccountActor.swift */,
+				6902C99F28ABC4C200108DAC /* README.md */,
+			);
+			path = RaceCondition;
+			sourceTree = "<group>";
+		};
+		6902C99928AB6A6200108DAC /* RaceCondition */ = {
+			isa = PBXGroup;
+			children = (
+				6902C99A28AB6A8C00108DAC /* BankAccount_Test.swift */,
+			);
+			path = RaceCondition;
+			sourceTree = "<group>";
+		};
 		695826FC2899279500690281 /* TDD */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +200,7 @@
 		69AA03102890108900DDF334 /* WorkshopTests */ = {
 			isa = PBXGroup;
 			children = (
+				6902C99928AB6A6200108DAC /* RaceCondition */,
 				6988179E28A236ED004C37F8 /* UnitTest */,
 				695826FD289927C800690281 /* TDD */,
 				69AA03112890108900DDF334 /* WorkshopTests.swift */,
@@ -201,6 +228,7 @@
 		69AA032B2890109E00DDF334 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6902C99E28ABC46F00108DAC /* RaceCondition.pptx */,
 				6902C99428AB61BC00108DAC /* TDD.pptx */,
 				6902C99528AB61BC00108DAC /* UnitTest.pptx */,
 				69AA03032890108900DDF334 /* Assets.xcassets */,
@@ -213,6 +241,7 @@
 		69AA032C289010D800DDF334 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
+				6902C99628AB684200108DAC /* RaceCondition */,
 				6988179B28A2334B004C37F8 /* UnitTest */,
 				695826FC2899279500690281 /* TDD */,
 			);
@@ -364,8 +393,10 @@
 				698817A228A25111004C37F8 /* DataLoader.swift in Sources */,
 				698817B228A27553004C37F8 /* ViewController_Demo.swift in Sources */,
 				69AA02FB2890108600DDF334 /* AppDelegate.swift in Sources */,
+				6902C99D28AB9E7B00108DAC /* BankAccountActor.swift in Sources */,
 				69AA03372890260C00DDF334 /* Utils.swift in Sources */,
 				698817AE28A26DE3004C37F8 /* Coordinator_Demo.swift in Sources */,
+				6902C99828AB689300108DAC /* BankAccount.swift in Sources */,
 				697FDA61289944CD00A6EC28 /* TDD_Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +408,7 @@
 				698817A628A2586B004C37F8 /* DataLoaderTests.swift in Sources */,
 				698817B028A2718E004C37F8 /* Coordinator_Demo_Tests.swift in Sources */,
 				69AA03122890108900DDF334 /* WorkshopTests.swift in Sources */,
+				6902C99B28AB6A8C00108DAC /* BankAccount_Test.swift in Sources */,
 				698817B428A2762D004C37F8 /* ViewController_Demo_Tests.swift in Sources */,
 				697FDA652899451E00A6EC28 /* TDD_Demo_Test.swift in Sources */,
 			);
