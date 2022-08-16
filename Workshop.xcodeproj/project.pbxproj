@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6902C99428AB61BC00108DAC /* TDD.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = TDD.pptx; sourceTree = "<group>"; };
+		6902C99528AB61BC00108DAC /* UnitTest.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = UnitTest.pptx; sourceTree = "<group>"; };
 		697FDA60289944CD00A6EC28 /* TDD_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo.swift; sourceTree = "<group>"; };
 		697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo_Test.swift; sourceTree = "<group>"; };
 		698817A128A25111004C37F8 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -199,6 +201,8 @@
 		69AA032B2890109E00DDF334 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6902C99428AB61BC00108DAC /* TDD.pptx */,
+				6902C99528AB61BC00108DAC /* UnitTest.pptx */,
 				69AA03032890108900DDF334 /* Assets.xcassets */,
 				69AA03052890108900DDF334 /* LaunchScreen.storyboard */,
 				698817A328A25592004C37F8 /* Users.json */,
