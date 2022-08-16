@@ -56,6 +56,8 @@
 		6902C99C28AB9E7B00108DAC /* BankAccountActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountActor.swift; sourceTree = "<group>"; };
 		6902C99E28ABC46F00108DAC /* RaceCondition.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = RaceCondition.pptx; sourceTree = "<group>"; };
 		6902C99F28ABC4C200108DAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6902C9A128ABC54400108DAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6902C9A328ABC55700108DAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		697FDA60289944CD00A6EC28 /* TDD_Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo.swift; sourceTree = "<group>"; };
 		697FDA642899451E00A6EC28 /* TDD_Demo_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Demo_Test.swift; sourceTree = "<group>"; };
 		698817A128A25111004C37F8 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				697FDA60289944CD00A6EC28 /* TDD_Demo.swift */,
+				6902C9A328ABC55700108DAC /* README.md */,
 			);
 			path = TDD;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				698817A128A25111004C37F8 /* DataLoader.swift */,
 				698817AD28A26DE3004C37F8 /* Coordinator_Demo.swift */,
 				698817B128A27553004C37F8 /* ViewController_Demo.swift */,
+				6902C9A128ABC54400108DAC /* README.md */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
