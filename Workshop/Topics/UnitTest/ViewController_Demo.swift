@@ -8,7 +8,7 @@
 import Foundation
 
 final class ViewController_Demo {
-    var delegate: SomeDelegate?
+    weak var delegate: SomeDelegate?
     
     // ...
 }
