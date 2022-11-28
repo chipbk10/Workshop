@@ -1,5 +1,6 @@
-Combine
+# Combine
 
+## Publisher, Subscrier, Subscription under the hood
 
 This presentation is the request from Alejandro. The purpose is to make the Chapter Time more interactive. And this is also one of my subjectives to do at the end of this year.
 The topic today is about Combine framework. Maybe you have studied the Combine native framework for a while, and have memorized a lot lists of publishers, subjects, subscribers, operators, properties wrappers, ObservableObject, and so on. There are tons of things that if we don’t use it in daily life, we will forget them quickly. The learning curve is really steep
