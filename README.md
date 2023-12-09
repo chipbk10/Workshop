@@ -7,3 +7,4 @@
 ### [Combine - Publisher, Subscriber, Subscription under the hood?](https://github.com/chipbk10/Workshop/blob/main/Workshop/Topics/Combine/README.md)
 ### [SwiftUI - MVVM-C](https://github.com/chipbk10/Workshop/blob/main/Workshop/Topics/SwiftUI/README.md)
 ### [Modularization](https://github.com/chipbk10/Workshop/tree/main/Workshop/Topics/Modularization)
+### [Combine - How to unit-test Publishers](https://github.com/chipbk10/Workshop/tree/main/Workshop/Topics/Combine+Unit-Test)
